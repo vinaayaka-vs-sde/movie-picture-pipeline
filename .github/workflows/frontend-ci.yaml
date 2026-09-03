@@ -79,5 +79,3 @@ jobs:
           tags: mp-frontend:latest
           build-args: |
             REACT_APP_MOVIE_API_URL=http://localhost:5000
-
-git add .github/workflows/frontend-ci.yaml starter/frontend/.eslintrc.js starter/frontend/src/components
